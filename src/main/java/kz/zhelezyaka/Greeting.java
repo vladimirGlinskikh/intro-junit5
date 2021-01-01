@@ -1,6 +1,6 @@
 package kz.zhelezyaka;
 
-public class Greating {
+public class Greeting {
     private static final String HELLO = "Hello";
     private static final String JAVA = "Java";
 
@@ -8,7 +8,7 @@ public class Greating {
         return HELLO + " " + JAVA;
     }
 
-    public String hellowJava(String name) {
+    public String helloJava(String name) {
         return HELLO + " " + name;
     }
 }
